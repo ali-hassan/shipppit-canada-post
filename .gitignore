@@ -16,3 +16,4 @@ mkmf.log
 canada_post_credentials.yml
 TODO.md
 *.gem
+.idea/*
