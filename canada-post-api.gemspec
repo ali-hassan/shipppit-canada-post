@@ -18,15 +18,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "httparty", "~> 0.13.7"
-  spec.add_dependency "nokogiri", '~> 1.6', '>= 1.6.7.1'
-  spec.add_dependency "activesupport", "~> 5.2.3"
+  spec.add_dependency "httparty"#, "~> 0.13.7"
+  spec.add_dependency "nokogiri"#, '~> 1.6', '>= 1.6.7.1'
+  spec.add_dependency "activesupport"#, "~> 5.2.3"
 
-  spec.add_development_dependency "bundler",  "~> 1.7"
-  spec.add_development_dependency "rake",     "~> 10.0"
+  spec.add_development_dependency "bundler"#,  "~> 1.7"
+  spec.add_development_dependency "rake"#,     "~> 10.0"
 
   # FOR TESTING ONLY
-  spec.add_development_dependency "rspec", "~> 3.4"
-  spec.add_development_dependency "webmock", "~> 1.22"
-  spec.add_development_dependency "vcr", "~> 3.0"
+  spec.add_development_dependency "rspec"#, "~> 3.4"
+  spec.add_development_dependency "webmock"#, "~> 1.22"
+  spec.add_development_dependency "vcr"#, "~> 3.0"
 end
